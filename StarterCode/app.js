@@ -25,7 +25,7 @@ function getPlot(id) {
 
         var data = [trace];
         var layout = {
-            title: "Top 10 OTU",
+            title: "Top 10 Bacteria Cultures Found",
             yaxis:{
                 tickmode:"linear",
             },
@@ -52,6 +52,7 @@ function getPlot(id) {
   
         };
         var layout_b = {
+            title: "Bacteria Cultures Per Sample",
             xaxis:{title: "OTU ID"},
             height: 600,
             width: 1000
